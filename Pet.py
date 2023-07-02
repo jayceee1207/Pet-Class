@@ -8,9 +8,10 @@ class Pet:
         self.__age = age
 
 #show result: name, type, and age
-    
-#Include the data attributes
-
+    def show(self):
+            print("\n\n***PET's INFO***")
+            print("Name:", self.__name, "\nType:", self.__animal_type, 
+            "\nAge:", self.__age)
 #Setter method
     def set_name(self):
         return self.__name
