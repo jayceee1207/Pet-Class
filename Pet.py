@@ -8,10 +8,12 @@ class Pet:
         self.__age = age
 
 #show result: name, type, and age
-
+    
 #Include the data attributes
 
 #Setter method
-
-#Getter method
-
+    def set_name(self):
+        return self.__name
+    #Getter method
+    def get_name(self):
+        return self.__name
