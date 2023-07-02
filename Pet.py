@@ -14,6 +14,11 @@ class Pet:
 #Setter method
     def set_name(self):
         return self.__name
-    #Getter method
+    def set_type(self, animal_type):
+        self.__animal_type = animal_type
+
+#Getter method
     def get_name(self):
         return self.__name
+    def get_animal_type(self):
+        return self.__animal_type
