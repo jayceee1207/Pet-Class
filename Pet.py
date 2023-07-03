@@ -9,9 +9,8 @@ class Pet:
 
 #show result: name, type, and age
     def show(self):
-            print("\n\n***PET's INFO***")
-            print("Name:", self.__name, "\nType:", self.__animal_type, 
-            "\nAge:", self.__age)
+            print("\n\n'\033[96m'*****'\033[37m'PET's INFO'\033[96m'*****\033[37m'")
+            print('\033[92m'"Name:", self.__name, '\033[37m' ,'\033[92m' "\nType:", self.__animal_type, '\033[37m', '\033[92m' "\nAge:", self.__age, '\033[37m')
 #Setter method
     def set_name(self):
         return self.__name
